@@ -1,35 +1,30 @@
-
-*
-{
-    box-sizing: content-box;
-    margin: 0px;
-    padding: 0px;
+* {
+  box-sizing: content-box;
+  margin: 0px;
+  padding: 0px;
 }
 
-body
-{
-    background-color: black;
-    width: 100%;
-    height: 100%;
+body {
+  background-color: black;
+  width: 100%;
+  height: 100%;
 }
 
-@font-face
-{
-    font-family: 'Cyberverse';
-    src: url(../font/Cyberverse.otf);
+@font-face {
+  font-family: 'Cyberverse';
+  src: url(../font/Cyberverse.otf);
 }
 
-.clock
-{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    margin-top: -150px;
-    font-size: 200px;
-    text-align: center;
-    vertical-align: middle;
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  margin-top: -150px;
+  font-size: 200px;
+  text-align: center;
+  vertical-align: middle;
 
-    color: #29d3f5;
-    font-family: 'Cyberverse', 'courier';
+  color: #29d3f5;
+  font-family: 'Cyberverse', 'courier';
 }
